@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="RF-defaultMessage">
+    <DisplayName>RF-defaultMessage</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers/>
+            <Payload contentType="application/json">
+                {
+                    "timestamp": "{system.time}",
+                    "message": "Something went wrong",
+                    "error-code": "TechnicalError_C4E_Oauth2_Default",
+                    "external-correlation-id": "{externalCorelationId}",
+                    "processingTime": {flow.error.processingTime}, 
+                    "targetAppId": "000",
+                    "targetErrorTrace": {
+                    "targetErrorCode": "",
+                    "targetError":{}
+                    }
+                }
+            </Payload>
+            <StatusCode>500</StatusCode>
+            <ReasonPhrase>Something went wrong</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

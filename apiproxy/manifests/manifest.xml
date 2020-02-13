@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="BA-Decode" version="SHA-512:0451ebef5bfdd575a6830391dfcd25d8d5cf255f8ea44d0ba41e457db34b423cae66924af353aa7882295a6842277c1480e2a7e5b96fcd37fa23a4aa05e56cc9"/>
+        <VersionInfo resourceName="FC-FaultRuleBundle" version="SHA-512:e2c5c278f5a699b38af79c665b04b46d0fd3b744e8f914f48d673911d95d51a2e0f64258a3d140f45bac66eea5a613c37409eecc57d54e8257d39b393395d39e"/>
+        <VersionInfo resourceName="JS-SetProcessingTime" version="SHA-512:2ef1b8ef865aefeadca5727a1dda2869b6b856291c3b112ccfbdbf6d89dc57bc82a6862f0eaef70425eab6d31f40c15b3549109feaafb4863ba7ff203eaf9ace"/>
+        <VersionInfo resourceName="RF-defaultMessage" version="SHA-512:4861dfc13870fefd6df34ee429ece41de8e5ef82493fe5343e4923710519d5d70807d5b15a57202233e20b59418876e91136e3abdd42d8b699de98c4efa8b6b0"/>
+        <VersionInfo resourceName="Verify-API-Key" version="SHA-512:6721d4fd03f76576cf5c59d968ab4036fab05b12af0e5e17fb26e91ff3d90992e4f4a072af6330a4237f63734209175635539d94a7d07d93f49d7c12da471caa"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:d431cfaa232e952ec5d2d1ee34535aab34351584aa20f283986cf79fe131b33c1c6281299f55911a77d66b38dac167791ebf52a7558010fc9f51b59f7cc762a7"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://JS-SetProcessingTime.js" version="SHA-512:63561790faffe7f1f1d382f2724eaee87cc165082c194f1f4bf241af02a68d702ea9bb008044a333dc489e84b78e6a88d8be8623a05f488427d98619959ee00f"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:cc57ed12fbcf60d752ae43e00aa42a72349fb3306874e4765bd0d2e1c06d80c0379d782a595b55e1d6dc1325f419f10d5fb1d9e6ce4e1ef7716b09c3c4f89850"/>
+    </TargetEndpoints>
+</Manifest>

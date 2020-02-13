@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="22" name="Apigee-IP-Finder">
+    <Basepaths>/apigee-ip-finder</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1551952569147</CreatedAt>
+    <CreatedBy>david.thie@accenture.com</CreatedBy>
+    <Description>Repeated calls will allow you to find all IP addresses associated with this environment.</Description>
+    <DisplayName>Apigee-IP-Finder</DisplayName>
+    <LastModifiedAt>1570009600385</LastModifiedAt>
+    <LastModifiedBy>anshul.x.aggarwal@accenture.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:2bf215c41748fa0ae52a33c79e397a913ef5c84566d7f01d3b5e490e610398bae1329698e5cf83fa135272f0a64854205df649f5b906b130d37e52163822a9dc</ManifestVersion>
+    <Policies>
+        <Policy>BA-Decode</Policy>
+        <Policy>FC-FaultRuleBundle</Policy>
+        <Policy>JS-SetProcessingTime</Policy>
+        <Policy>RF-defaultMessage</Policy>
+        <Policy>Verify-API-Key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JS-SetProcessingTime.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

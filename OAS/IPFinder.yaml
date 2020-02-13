@@ -1,0 +1,25 @@
+swagger: '2.0'
+info:
+  title: IP-Finder
+  description: As per the Apigee's contract for BAT, Apigee will expose static IPs for any request going out of Apigee to its target backends. These requests are called as Apigee southbound requests. One looking to whitelist Apigee's static IPs, needs to call the GET endpoint multiple times to obtain 2 unique NATed IPs i.e. the centre one in response.
+  version: 1.0.0
+host: api.bat.net
+schemes:
+  - https
+paths:
+  /apigee-ip-finder:
+    get:
+      tags:
+        - IP-Finder
+      summary: Returns the Apigee's southbound static IPs
+      description: 'You can use this GET method to fetch 2 unique NATed IPs for whitelist pursposes in the downstream systems.
+      produces:
+        - appication/json
+      responses:
+      '200':
+          description: OK
+          schema:
+            type: object
+            properties:
+            id:
+              type: string
